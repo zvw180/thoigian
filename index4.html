@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông Tin Lịch Sử</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../60%/css/main.css">
+</head>
+
+<body>
+  <nav class="container-fluid">
+    <a class="bg-dark text-white navbar-brand col-12">
+      <span class=" fa fa-users "></span> BÀi TẬP 1</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <input id="inputSearch" class="form-control form-control-dark w-100" type="text" placeholder="Search"
+        aria-label="Search">
+      <ul class="navbar-nav">
+        <li class="nav-item text-nowrap">
+          <a id="btnSearch" class="nav-link" href="#"><i class="fa fa-search"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <div class="container-fluid">
+      <div class="bg-light row">
+        <nav id="Menu" class="text-center col-md-3 col-lg-2 d-md-block sidebar collapse bg-dark">
+          <div class="col">
+            <div class="col">
+              <div class="collapse navbar-collapse" id="menu">
+                <h2 class="aside-brand text-center py-3"></h2>
+                <div class="aside-list" id="menu">
+                  <div class="row align-items-center border-top px-3 py-2 aside-list-items">
+                    <div class="col">
+                      <a class="nav-link" href="index2.html">
+                        <span class="fa fa-address-book">&nbsp;Danh Sách Lớp Học</span></a>
+                    </div>
+                  </div>
+                  <div class="row align-items-center border-top px-3 py-2 aside-list-items">
+                    <div class="col">
+                      <a class="nav-link" href="index.html">
+                        <span class="fa fa-address-book">&nbsp;Chi Tiết Lớp Học</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row align-items-center border-top border-bottom px-3 py-2  aside-list-items">
+                    <div class="col">
+                      <a class="nav-link" href="index4.html">
+                        <span class="fa fa-address-book">&nbsp;Chi Tiết Sinh Viên</span>
+                      </a>
+                      <div class="row align-items-center border-top px-3 py-2 aside-list-items">
+                        <div class="col">
+                          <a class="nav-link" href="https://www.zvw180.website/password">
+                            <span class="fa fa-cog">&nbsp;Setting</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </aside>
+
+              </div>
+            </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+          <div
+            class="text-center justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Thông Tin Lịch Sử</h1>
+          </div>
+          <table class="table table-striped table-sm">
+
+
+            <thead>
+              <tr>
+                <th>Tên</th>
+                <th>MaSSV</th>
+                <th>Thời Gian Đến Trường</th>
+                <th>Thời Gian Ra Trường</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <td id="spinner" style="text-align: center;" colspan="5"><img style="height: 400px" src="img/spinner.gif"
+                  alt=""></td>
+            </tbody>
+
+          </table>
+        </main>
+      </div>
+    </div>
+
+
+  </nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.js"></script>
+  <script src="../60%/js/js/java2.js"></script>
+  <!-- <script src="./js/d.js"></script> -->
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script> -->
+</body>
+
+</html>

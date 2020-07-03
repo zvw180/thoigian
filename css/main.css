@@ -1,0 +1,38 @@
+div a{
+    color :white;
+    text-align: center;
+
+}
+a:hover{
+    color: red;
+
+}
+#btnSearch {
+    color: black;
+}
+#btnSearch:hover{
+    color: red;
+
+}
+#menu{
+    display: block;
+}
+.dropdown-content{ 
+	display: none;
+	position: absolute;
+	z-index: 1;  
+    list-style: none;
+    font-size: 10px;
+ } 
+ .dropdown:hover .dropdown-content{
+	display: block
+}
+
+.dropdown-content a{
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+.img1{
+    width: 100px;
+}
